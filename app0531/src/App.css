@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.rowstyle{
+  text-align: left;
+  width: 300px;
+  height: 130px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.rowstyle .day{
+  float: right;
+  color: white;
+  font-size: 0.9em;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
